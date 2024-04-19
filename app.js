@@ -25,7 +25,7 @@ app.use(express.json());
 // Register middleware with the app instance
 app.use(mwLogger);
 
-// Route registration for all /users routes
+// Route registration for all /users rout
 app.use('/users', userRouter);
 
 // Route registration for all /products routes
