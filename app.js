@@ -13,7 +13,7 @@ const corsOptions = {
 };
 app.use(cors(corsOptions)); 
 mongoose.connect(process.env.MDB_CONN_STR,{
-    dbName:'mongodemo'
+    dbName:'nikunj'
 });
 
 mongoose.connection.on('connected', () => console.log('Database connected!'));
